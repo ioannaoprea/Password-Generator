@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Password Generator</title>
+        <link rel="stylesheet" href="./IndexM3-C6.css">
+    </head>
+    <body>
+        <main>
+            <div class="textPart">
+                <h1>Generate a <br><span id="important">random password</span></h1>
+                <p>Never use an insecure password again</p>
+            </div>
+
+            <div class="passPart">
+                <button id="generator" onclick="passwordGenerator()">Generate Password</button>
+                
+                <div class="generatedPass">
+                    <div class="pass" id="pass-el" ></div>
+                </div>
+            </div>
+
+            <div class="btnPart">
+                <button id="copy" onclick="passwordCopy()">Copy Password</button>
+          
+                <button id="reseter" onclick="passwordReseter()">Reset Password</button>
+            </div>
+        </main>
+        <script src="./IndexM3-J6.js"></script>
+    </body>
+</html>
